@@ -38,6 +38,12 @@
 .wi-fi-connection-successful-text11 {
   font-weight: 700;
 }
+.wi-fi-connection-successful-container1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .wi-fi-connection-successful-div {
   width: auto;
   height: 56px;
