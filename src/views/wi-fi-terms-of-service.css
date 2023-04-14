@@ -1,0 +1,90 @@
+.wi-fi-terms-of-service-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-pimary-800);
+}
+.wi-fi-terms-of-service-banner {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wi-fi-terms-of-service-image {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+.wi-fi-terms-of-service-text {
+  color: var(--dl-color-gray-black);
+  font-size: 3rem;
+  text-align: center;
+}
+.wi-fi-terms-of-service-text01 {
+  color: var(--dl-color-gray-black);
+  max-width: 1400px;
+  margin-top: 0px;
+  text-align: justify;
+  line-height: 1.25;
+  padding-left: 25px;
+  margin-bottom: 0px;
+  padding-right: 25px;
+}
+.wi-fi-terms-of-service-text05 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text10 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text15 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text20 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text23 {
+  color: var(--dl-color-gray-black);
+  line-height: 1.25;
+}
+.wi-fi-terms-of-service-text24 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text25 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text31 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text36 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+@media(max-width: 991px) {
+  .wi-fi-terms-of-service-text01 {
+    max-width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .wi-fi-terms-of-service-banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .wi-fi-terms-of-service-text01 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .wi-fi-terms-of-service-banner {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+}
