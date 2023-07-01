@@ -35,7 +35,7 @@
   height: 102px;
   display: flex;
   background-size: cover;
-  background-image: url("public/playground_assets/hcl-logowhite-text-transparent-background%20resized%20for%20ms365-200h.png");
+  background-image: url("public/hcl-logowhite-text-transparent-background%20resized%20for%20ms365-200h.png");
   background-position: center;
 }
 .header-burger-menu {
